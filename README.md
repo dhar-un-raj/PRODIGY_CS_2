@@ -17,7 +17,7 @@ This Python script provides a simple method to encrypt and decrypt images using 
 ## **Usage**
 1. Clone the repository:
 
-   `git clone https://github.com/your_username/image-encryption-tool.git`
+   `git clone https://github.com/dhar-un-raj/image-encryption-tool.git`
 
    `cd image-encryption-tool`
 
