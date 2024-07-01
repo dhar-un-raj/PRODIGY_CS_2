@@ -41,9 +41,9 @@ def decrypt_image(input_path, output_path, key=None):
         print(f"An error occurred during decryption: {e}")
 
 # image paths
-input_image = r"C:\Users\guhan\Desktop\Image Encryption and Decryption\Funny.jpg" #Replace with your Image Path
-encrypted_image = r"C:\Users\guhan\Desktop\Image Encryption and Decryption\encrypted.jpg"
-decrypted_image = r"C:\Users\guhan\Desktop\Image Encryption and Decryption\decrypted.jpg"
+input_image = r"Image Path\image.jpg" #Replace with your Image Path
+encrypted_image = r"Image Path\encrypted.jpg"
+decrypted_image = r"Image Path\decrypted.jpg"
 
 # Encrypt the image
 encrypt_image(input_image, encrypted_image)
