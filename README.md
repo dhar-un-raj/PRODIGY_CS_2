@@ -3,11 +3,9 @@
 This Python script provides a simple method to encrypt and decrypt images using basic pixel manipulation techniques. It swaps the red and blue channels of each pixel for encryption and reverses the process for decryption.
 
 ## **Features**
-- Encryption: Swaps red and blue channels of each pixel.
+- Encryption: The image pixels are modified to create a "weird" visual effect.
 
-- Decryption: Reverses the red and blue channel swap.
-
-- Simple: Uses basic pixel manipulation for encryption and decryption.
+- Decryption: The original image is restored by reversing the transformations applied during encryption
 
 ## **Requirements**
 - Python 3.x
@@ -44,8 +42,13 @@ This Python script provides a simple method to encrypt and decrypt images using 
 
 - This tool uses basic pixel manipulation techniques and is intended for educational purposes. For more secure encryption, consider using established cryptographic libraries.
 
+## **Acknowledgments**
+- Pillow library for image processing.
+
 ## **Contributing**
 
 Contributions are welcome! Please open an issue or submit a pull request for any changes or improvements.
+
+
 
 ---
