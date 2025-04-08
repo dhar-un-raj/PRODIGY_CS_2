@@ -52,3 +52,4 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 
 ---
+During my shifts, I consistently documented repeated incidents along with detailed findings and analysis to identify root causes and implement corrective measures, contributing to the reduction of recurring issues. I actively worked on false positive optimization by reviewing alert patterns, fine-tuning detection rules, and collaborating with the respective teams to enhance the accuracy of threat detection. As part of my responsibilities, I regularly checked for log sources that had stopped emitting events and promptly followed up with the concerned teams to ensure timely resolution and continuous log flow. Additionally, I summarized all critical activities, incident responses, and key observations at the end of each shift and ensured they were clearly mentioned in the handover to maintain effective communication and operational continuity.
