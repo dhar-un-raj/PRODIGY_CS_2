@@ -53,3 +53,4 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 ---
 
+As part of my responsibilities, I regularly reviewed and validated the security policies deployed across EDR, Sophos, Netskope, and Cloudflare to ensure they aligned with organizational standards and best practices. I monitored the respective native consoles for any High, Medium, or Low severity alerts and took appropriate actions based on the nature of the threat. For repeated incidents, I performed detailed incident analysis to identify patterns, potential gaps, and contributing factors. I documented these findings comprehensively to create a knowledge base that supports continuous learning and helps in improving the overall incident response process.
