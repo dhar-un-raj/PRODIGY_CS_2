@@ -53,4 +53,60 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 ---
 
-sI proactively monitored and validated the security policies configured in EDR, Sophos, Netskope, and Cloudflare to ensure they were effectively enforced and aligned with security requirements. Regular checks were conducted on the native consoles to identify and assess High, Medium, and Low severity alerts. Upon detecting repeated incidents, I carried out thorough incident analysis to understand root causes and patterns. The insights gathered were documented in a structured format to support team learning, improve response strategies, and prevent recurrence of similar issues.
+####### High availability cluster parameters #######
+
+## Option: HANodeName
+#       The high availability cluster node name.
+#       When empty, server is working in standalone mode; a node with empty name is registered with address for the frontend to connect to.
+#
+# Mandatory: no
+# Default:
+# HANodeName=
+
+## Option: NodeAddress
+#       IP or hostname with optional port to specify how frontend should connect to the server.
+#       Format: <address>[:<port>]
+#
+#       If IP or hostname is not set, then ListenIP value will be used. In case ListenIP is not set, localhost will be used.
+#       If port is not set, then ListenPort value will be used. In case ListenPort is not set, 10051 will be used.
+#       This option can be overridden by address specified in frontend configuration.
+#
+# Mandatory: no
+# Default:
+# NodeAddress=localhost:10051
+
+####### Browser monitoring #######
+
+### Option: WebDriverURL
+#       WebDriver interface HTTP[S] URL. For example http://localhost:4444 used with Selenium WebDriver standalone server.
+#
+# Mandatory: no
+# Default:
+# WebDriverURL=
+
+### Option: StartBrowserPollers
+#       Number of pre-forked instances of browser item pollers.
+#
+# Mandatory: no
+# Range: 0-1000
+# Default:
+# StartBrowserPollers=1
+# ### Option: FpingLocation
+#       Location of fping.
+#       Make sure that fping binary has root ownership and SUID flag set.
+#
+# Mandatory: no
+# Default:
+# FpingLocation=/usr/sbin/fping
+FpingLocation=/usr/bin/fping
+StartPingers=4
+### Option: Fping6Location
+
+#       Location of fping6.
+#       Make sure that fping6 binary has root ownership and SUID flag set.
+#       Make empty if your fping utility is capable to process IPv6 addresses.
+#
+# Mandatory: no
+# Default:
+# Fping6Location=/usr/sbin/fping6
+Fping6Location=
