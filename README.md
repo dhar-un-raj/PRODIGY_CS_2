@@ -89,3 +89,7 @@ Source data : process
 
 As a Frontline Security Analyst, I consistently adhere to the company’s internal security policies and procedures to maintain discipline and ensure the integrity of our security measures. I follow all applicable guidelines for security tools and systems, ensuring that all actions, from incident handling to system monitoring, are in strict alignment with the company’s standards. By staying committed to these policies, I contribute to a structured and secure environment, promoting accountability and minimizing operational risks. My focus on compliance helps to maintain discipline within the premises and strengthens the overall security framework.
 
+
+
+$eicar = 'X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*'
+Set-Content -Path "$env Magnet Iq\Desktop\eicar.com" -Value $eicar
